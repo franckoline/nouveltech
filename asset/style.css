@@ -2,14 +2,21 @@ body, html {
   height: 100%;
   margin: 0;
 }
+.logo{
+  padding: 0;
+  margin: 5px;
+  background: #b5b500;
+}
 
 .bgimg {
-  background-image: url('../images/slider_b.jpg');
+  /* background-image: url('../images/slider_b.jpg'); */
+  background-color: rgb(114, 97, 97, .9);
   height: 100%;
   background-position: center;
   background-size: cover;
   position: relative;
-  color: #002f67;
+  color: #b5b500;
+  /* color: #002f67; Nouveltech*/
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
 }
